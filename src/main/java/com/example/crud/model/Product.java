@@ -20,6 +20,7 @@ public class Product {
     private Long id;
     private String name;
     private double finalPrice;
+    private LocalDateTime debutTime;
     private LocalDateTime endTime;
     @OneToOne
     private User winner;
