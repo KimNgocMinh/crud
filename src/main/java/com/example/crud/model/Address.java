@@ -8,10 +8,13 @@ import lombok.Setter;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
-@AllArgsConstructor @NoArgsConstructor
-@Getter @Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 @Entity
 public class Address {
+
     @Id
     private Long id;
     private int buildingNumber;
